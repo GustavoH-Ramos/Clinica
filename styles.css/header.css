@@ -1,0 +1,53 @@
+.cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3em 0 2em 1em;
+    background: var(--cor-de-fundo);
+}
+
+.cabecalho__conteiner {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.cabecalho__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cabecalho__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.cabecalho__imagem {
+    width: 57px;
+    height: 57px;
+}
+
+@media screen and ( min-width: 1440px) {
+    .cabecalho__titulo {
+        font-size: 31px;
+    }
+
+    .cabecalho__texto {
+        font-size: 18px;
+    }
+
+    .cabecalho__imagem {
+        width: 96px;
+        height: 96px;
+    }
+
+    .cabecalho {
+        padding: 3em 0 2em 3em;
+    }
+}
+
+
